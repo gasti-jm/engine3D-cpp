@@ -1,0 +1,3 @@
+/home/gasty/Escritorio/game/build/CMakeFiles/game.dir
+/home/gasty/Escritorio/game/build/CMakeFiles/edit_cache.dir
+/home/gasty/Escritorio/game/build/CMakeFiles/rebuild_cache.dir
