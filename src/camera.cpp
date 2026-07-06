@@ -12,7 +12,7 @@ Camera::Camera()
     lastX = 400.0f;
     lastY = 300.0f;
 
-firstMouse = true;
+    firstMouse = true;
 
     updateVectors();
 }

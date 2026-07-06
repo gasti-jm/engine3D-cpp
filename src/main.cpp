@@ -38,7 +38,8 @@ void main() {
 }
 )";
 
-int main() {
+int main() 
+{
     Window window;
     Camera camera;
 
@@ -64,8 +65,9 @@ int main() {
     Mesh mesh;
     mesh.create(vertices, sizeof(vertices));
 
-    while (!window.shouldClose()) {
-        float speed = 0.01f;
+    while (!window.shouldClose()) 
+    {
+        float speed = 0.05f;
 
         if (glfwGetKey(window.getHandle(), GLFW_KEY_W) == GLFW_PRESS)
         {

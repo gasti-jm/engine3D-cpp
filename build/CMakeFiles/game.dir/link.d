@@ -2,11 +2,11 @@ game: \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o \
   /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o \
-  CMakeFiles/game.dir/src/main.cpp.o \
-  CMakeFiles/game.dir/src/window.cpp.o \
-  CMakeFiles/game.dir/src/shader.cpp.o \
-  CMakeFiles/game.dir/src/mesh.cpp.o \
   CMakeFiles/game.dir/src/camera.cpp.o \
+  CMakeFiles/game.dir/src/main.cpp.o \
+  CMakeFiles/game.dir/src/mesh.cpp.o \
+  CMakeFiles/game.dir/src/shader.cpp.o \
+  CMakeFiles/game.dir/src/window.cpp.o \
   CMakeFiles/game.dir/external/glad/src/glad.c.o \
   /usr/lib/x86_64-linux-gnu/libglfw.so.3.4 \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libGL.so \
@@ -44,15 +44,15 @@ game: \
 
 /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o:
 
+CMakeFiles/game.dir/src/camera.cpp.o:
+
 CMakeFiles/game.dir/src/main.cpp.o:
-
-CMakeFiles/game.dir/src/window.cpp.o:
-
-CMakeFiles/game.dir/src/shader.cpp.o:
 
 CMakeFiles/game.dir/src/mesh.cpp.o:
 
-CMakeFiles/game.dir/src/camera.cpp.o:
+CMakeFiles/game.dir/src/shader.cpp.o:
+
+CMakeFiles/game.dir/src/window.cpp.o:
 
 CMakeFiles/game.dir/external/glad/src/glad.c.o:
 

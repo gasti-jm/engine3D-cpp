@@ -3,12 +3,12 @@ project(game)
 
 set(CMAKE_CXX_STANDARD 20)
 
+file(GLOB_RECURSE SOURCES CONFIGURE_DEPENDS
+    src/*.cpp
+)
+
 add_executable(game
-    src/main.cpp
-    src/window.cpp
-    src/shader.cpp
-    src/mesh.cpp
-    src/camera.cpp
+    ${SOURCES}
     external/glad/src/glad.c
 )
 
