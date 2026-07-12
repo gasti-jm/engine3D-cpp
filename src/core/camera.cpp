@@ -60,6 +60,8 @@ void Camera::processMouse(float xpos, float ypos)
     lastX = xpos;
     lastY = ypos;
 
+
+    // TODO: poner en un archivo de configuracion.
     float sensitivity = 0.1f;
 
     xoffset *= sensitivity;
@@ -74,7 +76,34 @@ void Camera::processMouse(float xpos, float ypos)
     if (pitch < -89.0f)
         pitch = -89.0f;
 
-    std::cout << pitch << std::endl;
+    //std::cout << pitch << std::endl;
 
     updateVectors();
+}
+
+
+void Camera::processKeyboard(GLFWwindow* window, float deltaTime)
+{
+    float velocity = movementSpeed * deltaTime;
+
+    if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)
+    {
+        position += front * velocity;
+    }
+
+    if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS)
+    {
+        position -= front * velocity;
+    }
+
+    if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS)
+    {
+        position -= right * velocity;
+    }
+
+    if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS)
+    {
+        position += right * velocity;
+    }
+
 }

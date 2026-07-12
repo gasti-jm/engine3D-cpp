@@ -9,11 +9,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/gasty/Escritorio/game/external/glad/src/glad.c" "CMakeFiles/game.dir/external/glad/src/glad.c.o" "gcc" "CMakeFiles/game.dir/external/glad/src/glad.c.o.d"
-  "/home/gasty/Escritorio/game/src/camera.cpp" "CMakeFiles/game.dir/src/camera.cpp.o" "gcc" "CMakeFiles/game.dir/src/camera.cpp.o.d"
+  "/home/gasty/Escritorio/game/src/core/camera.cpp" "CMakeFiles/game.dir/src/core/camera.cpp.o" "gcc" "CMakeFiles/game.dir/src/core/camera.cpp.o.d"
+  "/home/gasty/Escritorio/game/src/core/mesh.cpp" "CMakeFiles/game.dir/src/core/mesh.cpp.o" "gcc" "CMakeFiles/game.dir/src/core/mesh.cpp.o.d"
+  "/home/gasty/Escritorio/game/src/core/mesh_factory.cpp" "CMakeFiles/game.dir/src/core/mesh_factory.cpp.o" "gcc" "CMakeFiles/game.dir/src/core/mesh_factory.cpp.o.d"
+  "/home/gasty/Escritorio/game/src/core/shader.cpp" "CMakeFiles/game.dir/src/core/shader.cpp.o" "gcc" "CMakeFiles/game.dir/src/core/shader.cpp.o.d"
+  "/home/gasty/Escritorio/game/src/core/timer.cpp" "CMakeFiles/game.dir/src/core/timer.cpp.o" "gcc" "CMakeFiles/game.dir/src/core/timer.cpp.o.d"
+  "/home/gasty/Escritorio/game/src/core/window.cpp" "CMakeFiles/game.dir/src/core/window.cpp.o" "gcc" "CMakeFiles/game.dir/src/core/window.cpp.o.d"
   "/home/gasty/Escritorio/game/src/main.cpp" "CMakeFiles/game.dir/src/main.cpp.o" "gcc" "CMakeFiles/game.dir/src/main.cpp.o.d"
-  "/home/gasty/Escritorio/game/src/mesh.cpp" "CMakeFiles/game.dir/src/mesh.cpp.o" "gcc" "CMakeFiles/game.dir/src/mesh.cpp.o.d"
-  "/home/gasty/Escritorio/game/src/shader.cpp" "CMakeFiles/game.dir/src/shader.cpp.o" "gcc" "CMakeFiles/game.dir/src/shader.cpp.o.d"
-  "/home/gasty/Escritorio/game/src/window.cpp" "CMakeFiles/game.dir/src/window.cpp.o" "gcc" "CMakeFiles/game.dir/src/window.cpp.o.d"
   "" "game" "gcc" "CMakeFiles/game.dir/link.d"
   )
 

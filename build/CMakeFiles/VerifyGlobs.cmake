@@ -4,11 +4,13 @@
 # SOURCES at CMakeLists.txt:6 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/gasty/Escritorio/game/src/*.cpp")
 set(OLD_GLOB
-  "/home/gasty/Escritorio/game/src/camera.cpp"
+  "/home/gasty/Escritorio/game/src/core/camera.cpp"
+  "/home/gasty/Escritorio/game/src/core/mesh.cpp"
+  "/home/gasty/Escritorio/game/src/core/mesh_factory.cpp"
+  "/home/gasty/Escritorio/game/src/core/shader.cpp"
+  "/home/gasty/Escritorio/game/src/core/timer.cpp"
+  "/home/gasty/Escritorio/game/src/core/window.cpp"
   "/home/gasty/Escritorio/game/src/main.cpp"
-  "/home/gasty/Escritorio/game/src/mesh.cpp"
-  "/home/gasty/Escritorio/game/src/shader.cpp"
-  "/home/gasty/Escritorio/game/src/window.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

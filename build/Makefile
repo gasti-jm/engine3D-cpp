@@ -154,29 +154,149 @@ external/glad/src/glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/external/glad/src/glad.c.s
 .PHONY : external/glad/src/glad.c.s
 
-src/camera.o: src/camera.cpp.o
-.PHONY : src/camera.o
+src/core/camera.o: src/core/camera.cpp.o
+.PHONY : src/core/camera.o
 
 # target to build an object file
-src/camera.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/camera.cpp.o
-.PHONY : src/camera.cpp.o
+src/core/camera.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/core/camera.cpp.o
+.PHONY : src/core/camera.cpp.o
 
-src/camera.i: src/camera.cpp.i
-.PHONY : src/camera.i
+src/core/camera.i: src/core/camera.cpp.i
+.PHONY : src/core/camera.i
 
 # target to preprocess a source file
-src/camera.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/camera.cpp.i
-.PHONY : src/camera.cpp.i
+src/core/camera.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/core/camera.cpp.i
+.PHONY : src/core/camera.cpp.i
 
-src/camera.s: src/camera.cpp.s
-.PHONY : src/camera.s
+src/core/camera.s: src/core/camera.cpp.s
+.PHONY : src/core/camera.s
 
 # target to generate assembly for a file
-src/camera.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/camera.cpp.s
-.PHONY : src/camera.cpp.s
+src/core/camera.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/core/camera.cpp.s
+.PHONY : src/core/camera.cpp.s
+
+src/core/mesh.o: src/core/mesh.cpp.o
+.PHONY : src/core/mesh.o
+
+# target to build an object file
+src/core/mesh.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/core/mesh.cpp.o
+.PHONY : src/core/mesh.cpp.o
+
+src/core/mesh.i: src/core/mesh.cpp.i
+.PHONY : src/core/mesh.i
+
+# target to preprocess a source file
+src/core/mesh.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/core/mesh.cpp.i
+.PHONY : src/core/mesh.cpp.i
+
+src/core/mesh.s: src/core/mesh.cpp.s
+.PHONY : src/core/mesh.s
+
+# target to generate assembly for a file
+src/core/mesh.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/core/mesh.cpp.s
+.PHONY : src/core/mesh.cpp.s
+
+src/core/mesh_factory.o: src/core/mesh_factory.cpp.o
+.PHONY : src/core/mesh_factory.o
+
+# target to build an object file
+src/core/mesh_factory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/core/mesh_factory.cpp.o
+.PHONY : src/core/mesh_factory.cpp.o
+
+src/core/mesh_factory.i: src/core/mesh_factory.cpp.i
+.PHONY : src/core/mesh_factory.i
+
+# target to preprocess a source file
+src/core/mesh_factory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/core/mesh_factory.cpp.i
+.PHONY : src/core/mesh_factory.cpp.i
+
+src/core/mesh_factory.s: src/core/mesh_factory.cpp.s
+.PHONY : src/core/mesh_factory.s
+
+# target to generate assembly for a file
+src/core/mesh_factory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/core/mesh_factory.cpp.s
+.PHONY : src/core/mesh_factory.cpp.s
+
+src/core/shader.o: src/core/shader.cpp.o
+.PHONY : src/core/shader.o
+
+# target to build an object file
+src/core/shader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/core/shader.cpp.o
+.PHONY : src/core/shader.cpp.o
+
+src/core/shader.i: src/core/shader.cpp.i
+.PHONY : src/core/shader.i
+
+# target to preprocess a source file
+src/core/shader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/core/shader.cpp.i
+.PHONY : src/core/shader.cpp.i
+
+src/core/shader.s: src/core/shader.cpp.s
+.PHONY : src/core/shader.s
+
+# target to generate assembly for a file
+src/core/shader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/core/shader.cpp.s
+.PHONY : src/core/shader.cpp.s
+
+src/core/timer.o: src/core/timer.cpp.o
+.PHONY : src/core/timer.o
+
+# target to build an object file
+src/core/timer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/core/timer.cpp.o
+.PHONY : src/core/timer.cpp.o
+
+src/core/timer.i: src/core/timer.cpp.i
+.PHONY : src/core/timer.i
+
+# target to preprocess a source file
+src/core/timer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/core/timer.cpp.i
+.PHONY : src/core/timer.cpp.i
+
+src/core/timer.s: src/core/timer.cpp.s
+.PHONY : src/core/timer.s
+
+# target to generate assembly for a file
+src/core/timer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/core/timer.cpp.s
+.PHONY : src/core/timer.cpp.s
+
+src/core/window.o: src/core/window.cpp.o
+.PHONY : src/core/window.o
+
+# target to build an object file
+src/core/window.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/core/window.cpp.o
+.PHONY : src/core/window.cpp.o
+
+src/core/window.i: src/core/window.cpp.i
+.PHONY : src/core/window.i
+
+# target to preprocess a source file
+src/core/window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/core/window.cpp.i
+.PHONY : src/core/window.cpp.i
+
+src/core/window.s: src/core/window.cpp.s
+.PHONY : src/core/window.s
+
+# target to generate assembly for a file
+src/core/window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/core/window.cpp.s
+.PHONY : src/core/window.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -202,78 +322,6 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/mesh.o: src/mesh.cpp.o
-.PHONY : src/mesh.o
-
-# target to build an object file
-src/mesh.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/mesh.cpp.o
-.PHONY : src/mesh.cpp.o
-
-src/mesh.i: src/mesh.cpp.i
-.PHONY : src/mesh.i
-
-# target to preprocess a source file
-src/mesh.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/mesh.cpp.i
-.PHONY : src/mesh.cpp.i
-
-src/mesh.s: src/mesh.cpp.s
-.PHONY : src/mesh.s
-
-# target to generate assembly for a file
-src/mesh.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/mesh.cpp.s
-.PHONY : src/mesh.cpp.s
-
-src/shader.o: src/shader.cpp.o
-.PHONY : src/shader.o
-
-# target to build an object file
-src/shader.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/shader.cpp.o
-.PHONY : src/shader.cpp.o
-
-src/shader.i: src/shader.cpp.i
-.PHONY : src/shader.i
-
-# target to preprocess a source file
-src/shader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/shader.cpp.i
-.PHONY : src/shader.cpp.i
-
-src/shader.s: src/shader.cpp.s
-.PHONY : src/shader.s
-
-# target to generate assembly for a file
-src/shader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/shader.cpp.s
-.PHONY : src/shader.cpp.s
-
-src/window.o: src/window.cpp.o
-.PHONY : src/window.o
-
-# target to build an object file
-src/window.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/window.cpp.o
-.PHONY : src/window.cpp.o
-
-src/window.i: src/window.cpp.i
-.PHONY : src/window.i
-
-# target to preprocess a source file
-src/window.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/window.cpp.i
-.PHONY : src/window.cpp.i
-
-src/window.s: src/window.cpp.s
-.PHONY : src/window.s
-
-# target to generate assembly for a file
-src/window.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/window.cpp.s
-.PHONY : src/window.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -286,21 +334,27 @@ help:
 	@echo "... external/glad/src/glad.o"
 	@echo "... external/glad/src/glad.i"
 	@echo "... external/glad/src/glad.s"
-	@echo "... src/camera.o"
-	@echo "... src/camera.i"
-	@echo "... src/camera.s"
+	@echo "... src/core/camera.o"
+	@echo "... src/core/camera.i"
+	@echo "... src/core/camera.s"
+	@echo "... src/core/mesh.o"
+	@echo "... src/core/mesh.i"
+	@echo "... src/core/mesh.s"
+	@echo "... src/core/mesh_factory.o"
+	@echo "... src/core/mesh_factory.i"
+	@echo "... src/core/mesh_factory.s"
+	@echo "... src/core/shader.o"
+	@echo "... src/core/shader.i"
+	@echo "... src/core/shader.s"
+	@echo "... src/core/timer.o"
+	@echo "... src/core/timer.i"
+	@echo "... src/core/timer.s"
+	@echo "... src/core/window.o"
+	@echo "... src/core/window.i"
+	@echo "... src/core/window.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/mesh.o"
-	@echo "... src/mesh.i"
-	@echo "... src/mesh.s"
-	@echo "... src/shader.o"
-	@echo "... src/shader.i"
-	@echo "... src/shader.s"
-	@echo "... src/window.o"
-	@echo "... src/window.i"
-	@echo "... src/window.s"
 .PHONY : help
 
 

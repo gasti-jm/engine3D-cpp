@@ -72,24 +72,94 @@ include CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/codegen:
 .PHONY : CMakeFiles/game.dir/codegen
 
-CMakeFiles/game.dir/src/camera.cpp.o: CMakeFiles/game.dir/flags.make
-CMakeFiles/game.dir/src/camera.cpp.o: /home/gasty/Escritorio/game/src/camera.cpp
-CMakeFiles/game.dir/src/camera.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gasty/Escritorio/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/game.dir/src/camera.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/camera.cpp.o -MF CMakeFiles/game.dir/src/camera.cpp.o.d -o CMakeFiles/game.dir/src/camera.cpp.o -c /home/gasty/Escritorio/game/src/camera.cpp
+CMakeFiles/game.dir/src/core/camera.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/core/camera.cpp.o: /home/gasty/Escritorio/game/src/core/camera.cpp
+CMakeFiles/game.dir/src/core/camera.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gasty/Escritorio/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/game.dir/src/core/camera.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/core/camera.cpp.o -MF CMakeFiles/game.dir/src/core/camera.cpp.o.d -o CMakeFiles/game.dir/src/core/camera.cpp.o -c /home/gasty/Escritorio/game/src/core/camera.cpp
 
-CMakeFiles/game.dir/src/camera.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/camera.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gasty/Escritorio/game/src/camera.cpp > CMakeFiles/game.dir/src/camera.cpp.i
+CMakeFiles/game.dir/src/core/camera.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/core/camera.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gasty/Escritorio/game/src/core/camera.cpp > CMakeFiles/game.dir/src/core/camera.cpp.i
 
-CMakeFiles/game.dir/src/camera.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/camera.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gasty/Escritorio/game/src/camera.cpp -o CMakeFiles/game.dir/src/camera.cpp.s
+CMakeFiles/game.dir/src/core/camera.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/core/camera.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gasty/Escritorio/game/src/core/camera.cpp -o CMakeFiles/game.dir/src/core/camera.cpp.s
+
+CMakeFiles/game.dir/src/core/mesh.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/core/mesh.cpp.o: /home/gasty/Escritorio/game/src/core/mesh.cpp
+CMakeFiles/game.dir/src/core/mesh.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gasty/Escritorio/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/game.dir/src/core/mesh.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/core/mesh.cpp.o -MF CMakeFiles/game.dir/src/core/mesh.cpp.o.d -o CMakeFiles/game.dir/src/core/mesh.cpp.o -c /home/gasty/Escritorio/game/src/core/mesh.cpp
+
+CMakeFiles/game.dir/src/core/mesh.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/core/mesh.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gasty/Escritorio/game/src/core/mesh.cpp > CMakeFiles/game.dir/src/core/mesh.cpp.i
+
+CMakeFiles/game.dir/src/core/mesh.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/core/mesh.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gasty/Escritorio/game/src/core/mesh.cpp -o CMakeFiles/game.dir/src/core/mesh.cpp.s
+
+CMakeFiles/game.dir/src/core/mesh_factory.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/core/mesh_factory.cpp.o: /home/gasty/Escritorio/game/src/core/mesh_factory.cpp
+CMakeFiles/game.dir/src/core/mesh_factory.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gasty/Escritorio/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game.dir/src/core/mesh_factory.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/core/mesh_factory.cpp.o -MF CMakeFiles/game.dir/src/core/mesh_factory.cpp.o.d -o CMakeFiles/game.dir/src/core/mesh_factory.cpp.o -c /home/gasty/Escritorio/game/src/core/mesh_factory.cpp
+
+CMakeFiles/game.dir/src/core/mesh_factory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/core/mesh_factory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gasty/Escritorio/game/src/core/mesh_factory.cpp > CMakeFiles/game.dir/src/core/mesh_factory.cpp.i
+
+CMakeFiles/game.dir/src/core/mesh_factory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/core/mesh_factory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gasty/Escritorio/game/src/core/mesh_factory.cpp -o CMakeFiles/game.dir/src/core/mesh_factory.cpp.s
+
+CMakeFiles/game.dir/src/core/shader.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/core/shader.cpp.o: /home/gasty/Escritorio/game/src/core/shader.cpp
+CMakeFiles/game.dir/src/core/shader.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gasty/Escritorio/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/game.dir/src/core/shader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/core/shader.cpp.o -MF CMakeFiles/game.dir/src/core/shader.cpp.o.d -o CMakeFiles/game.dir/src/core/shader.cpp.o -c /home/gasty/Escritorio/game/src/core/shader.cpp
+
+CMakeFiles/game.dir/src/core/shader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/core/shader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gasty/Escritorio/game/src/core/shader.cpp > CMakeFiles/game.dir/src/core/shader.cpp.i
+
+CMakeFiles/game.dir/src/core/shader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/core/shader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gasty/Escritorio/game/src/core/shader.cpp -o CMakeFiles/game.dir/src/core/shader.cpp.s
+
+CMakeFiles/game.dir/src/core/timer.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/core/timer.cpp.o: /home/gasty/Escritorio/game/src/core/timer.cpp
+CMakeFiles/game.dir/src/core/timer.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gasty/Escritorio/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/game.dir/src/core/timer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/core/timer.cpp.o -MF CMakeFiles/game.dir/src/core/timer.cpp.o.d -o CMakeFiles/game.dir/src/core/timer.cpp.o -c /home/gasty/Escritorio/game/src/core/timer.cpp
+
+CMakeFiles/game.dir/src/core/timer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/core/timer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gasty/Escritorio/game/src/core/timer.cpp > CMakeFiles/game.dir/src/core/timer.cpp.i
+
+CMakeFiles/game.dir/src/core/timer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/core/timer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gasty/Escritorio/game/src/core/timer.cpp -o CMakeFiles/game.dir/src/core/timer.cpp.s
+
+CMakeFiles/game.dir/src/core/window.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/core/window.cpp.o: /home/gasty/Escritorio/game/src/core/window.cpp
+CMakeFiles/game.dir/src/core/window.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gasty/Escritorio/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/game.dir/src/core/window.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/core/window.cpp.o -MF CMakeFiles/game.dir/src/core/window.cpp.o.d -o CMakeFiles/game.dir/src/core/window.cpp.o -c /home/gasty/Escritorio/game/src/core/window.cpp
+
+CMakeFiles/game.dir/src/core/window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/core/window.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gasty/Escritorio/game/src/core/window.cpp > CMakeFiles/game.dir/src/core/window.cpp.i
+
+CMakeFiles/game.dir/src/core/window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/core/window.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gasty/Escritorio/game/src/core/window.cpp -o CMakeFiles/game.dir/src/core/window.cpp.s
 
 CMakeFiles/game.dir/src/main.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/main.cpp.o: /home/gasty/Escritorio/game/src/main.cpp
 CMakeFiles/game.dir/src/main.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gasty/Escritorio/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/game.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gasty/Escritorio/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/game.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/main.cpp.o -MF CMakeFiles/game.dir/src/main.cpp.o.d -o CMakeFiles/game.dir/src/main.cpp.o -c /home/gasty/Escritorio/game/src/main.cpp
 
 CMakeFiles/game.dir/src/main.cpp.i: cmake_force
@@ -100,52 +170,10 @@ CMakeFiles/game.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gasty/Escritorio/game/src/main.cpp -o CMakeFiles/game.dir/src/main.cpp.s
 
-CMakeFiles/game.dir/src/mesh.cpp.o: CMakeFiles/game.dir/flags.make
-CMakeFiles/game.dir/src/mesh.cpp.o: /home/gasty/Escritorio/game/src/mesh.cpp
-CMakeFiles/game.dir/src/mesh.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gasty/Escritorio/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game.dir/src/mesh.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/mesh.cpp.o -MF CMakeFiles/game.dir/src/mesh.cpp.o.d -o CMakeFiles/game.dir/src/mesh.cpp.o -c /home/gasty/Escritorio/game/src/mesh.cpp
-
-CMakeFiles/game.dir/src/mesh.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/mesh.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gasty/Escritorio/game/src/mesh.cpp > CMakeFiles/game.dir/src/mesh.cpp.i
-
-CMakeFiles/game.dir/src/mesh.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/mesh.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gasty/Escritorio/game/src/mesh.cpp -o CMakeFiles/game.dir/src/mesh.cpp.s
-
-CMakeFiles/game.dir/src/shader.cpp.o: CMakeFiles/game.dir/flags.make
-CMakeFiles/game.dir/src/shader.cpp.o: /home/gasty/Escritorio/game/src/shader.cpp
-CMakeFiles/game.dir/src/shader.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gasty/Escritorio/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/game.dir/src/shader.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/shader.cpp.o -MF CMakeFiles/game.dir/src/shader.cpp.o.d -o CMakeFiles/game.dir/src/shader.cpp.o -c /home/gasty/Escritorio/game/src/shader.cpp
-
-CMakeFiles/game.dir/src/shader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/shader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gasty/Escritorio/game/src/shader.cpp > CMakeFiles/game.dir/src/shader.cpp.i
-
-CMakeFiles/game.dir/src/shader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/shader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gasty/Escritorio/game/src/shader.cpp -o CMakeFiles/game.dir/src/shader.cpp.s
-
-CMakeFiles/game.dir/src/window.cpp.o: CMakeFiles/game.dir/flags.make
-CMakeFiles/game.dir/src/window.cpp.o: /home/gasty/Escritorio/game/src/window.cpp
-CMakeFiles/game.dir/src/window.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gasty/Escritorio/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/game.dir/src/window.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/window.cpp.o -MF CMakeFiles/game.dir/src/window.cpp.o.d -o CMakeFiles/game.dir/src/window.cpp.o -c /home/gasty/Escritorio/game/src/window.cpp
-
-CMakeFiles/game.dir/src/window.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/window.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gasty/Escritorio/game/src/window.cpp > CMakeFiles/game.dir/src/window.cpp.i
-
-CMakeFiles/game.dir/src/window.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/window.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gasty/Escritorio/game/src/window.cpp -o CMakeFiles/game.dir/src/window.cpp.s
-
 CMakeFiles/game.dir/external/glad/src/glad.c.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/external/glad/src/glad.c.o: /home/gasty/Escritorio/game/external/glad/src/glad.c
 CMakeFiles/game.dir/external/glad/src/glad.c.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gasty/Escritorio/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/game.dir/external/glad/src/glad.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gasty/Escritorio/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/game.dir/external/glad/src/glad.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/game.dir/external/glad/src/glad.c.o -MF CMakeFiles/game.dir/external/glad/src/glad.c.o.d -o CMakeFiles/game.dir/external/glad/src/glad.c.o -c /home/gasty/Escritorio/game/external/glad/src/glad.c
 
 CMakeFiles/game.dir/external/glad/src/glad.c.i: cmake_force
@@ -158,27 +186,31 @@ CMakeFiles/game.dir/external/glad/src/glad.c.s: cmake_force
 
 # Object files for target game
 game_OBJECTS = \
-"CMakeFiles/game.dir/src/camera.cpp.o" \
+"CMakeFiles/game.dir/src/core/camera.cpp.o" \
+"CMakeFiles/game.dir/src/core/mesh.cpp.o" \
+"CMakeFiles/game.dir/src/core/mesh_factory.cpp.o" \
+"CMakeFiles/game.dir/src/core/shader.cpp.o" \
+"CMakeFiles/game.dir/src/core/timer.cpp.o" \
+"CMakeFiles/game.dir/src/core/window.cpp.o" \
 "CMakeFiles/game.dir/src/main.cpp.o" \
-"CMakeFiles/game.dir/src/mesh.cpp.o" \
-"CMakeFiles/game.dir/src/shader.cpp.o" \
-"CMakeFiles/game.dir/src/window.cpp.o" \
 "CMakeFiles/game.dir/external/glad/src/glad.c.o"
 
 # External object files for target game
 game_EXTERNAL_OBJECTS =
 
-game: CMakeFiles/game.dir/src/camera.cpp.o
+game: CMakeFiles/game.dir/src/core/camera.cpp.o
+game: CMakeFiles/game.dir/src/core/mesh.cpp.o
+game: CMakeFiles/game.dir/src/core/mesh_factory.cpp.o
+game: CMakeFiles/game.dir/src/core/shader.cpp.o
+game: CMakeFiles/game.dir/src/core/timer.cpp.o
+game: CMakeFiles/game.dir/src/core/window.cpp.o
 game: CMakeFiles/game.dir/src/main.cpp.o
-game: CMakeFiles/game.dir/src/mesh.cpp.o
-game: CMakeFiles/game.dir/src/shader.cpp.o
-game: CMakeFiles/game.dir/src/window.cpp.o
 game: CMakeFiles/game.dir/external/glad/src/glad.c.o
 game: CMakeFiles/game.dir/build.make
 game: CMakeFiles/game.dir/compiler_depend.ts
 game: /usr/lib/x86_64-linux-gnu/libglfw.so.3.4
 game: CMakeFiles/game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/gasty/Escritorio/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/gasty/Escritorio/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable game"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/game.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

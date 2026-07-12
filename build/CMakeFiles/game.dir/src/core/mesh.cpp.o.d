@@ -1,6 +1,6 @@
-CMakeFiles/game.dir/src/mesh.cpp.o: \
- /home/gasty/Escritorio/game/src/mesh.cpp /usr/include/stdc-predef.h \
- /home/gasty/Escritorio/game/src/mesh.h /usr/include/c++/15/cstddef \
+CMakeFiles/game.dir/src/core/mesh.cpp.o: \
+ /home/gasty/Escritorio/game/src/core/mesh.cpp /usr/include/stdc-predef.h \
+ /home/gasty/Escritorio/game/src/core/mesh.h /usr/include/c++/15/cstddef \
  /usr/include/x86_64-linux-gnu/c++/15/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \

@@ -1,6 +1,6 @@
-CMakeFiles/game.dir/src/window.cpp.o: \
- /home/gasty/Escritorio/game/src/window.cpp /usr/include/stdc-predef.h \
- /home/gasty/Escritorio/game/src/window.h \
+CMakeFiles/game.dir/src/core/window.cpp.o: \
+ /home/gasty/Escritorio/game/src/core/window.cpp \
+ /usr/include/stdc-predef.h /home/gasty/Escritorio/game/src/core/window.h \
  /home/gasty/Escritorio/game/external/glad/include/glad/glad.h \
  /home/gasty/Escritorio/game/external/glad/include/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-linux-gnu/15/include/stdint.h /usr/include/stdint.h \

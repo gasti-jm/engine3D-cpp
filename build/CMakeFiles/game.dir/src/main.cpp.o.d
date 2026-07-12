@@ -1,6 +1,6 @@
 CMakeFiles/game.dir/src/main.cpp.o: \
  /home/gasty/Escritorio/game/src/main.cpp /usr/include/stdc-predef.h \
- /home/gasty/Escritorio/game/src/window.h \
+ /home/gasty/Escritorio/game/src/core/window.h \
  /home/gasty/Escritorio/game/external/glad/include/glad/glad.h \
  /home/gasty/Escritorio/game/external/glad/include/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-linux-gnu/15/include/stdint.h /usr/include/stdint.h \
@@ -171,7 +171,7 @@ CMakeFiles/game.dir/src/main.cpp.o: \
  /usr/include/c++/15/bits/basic_ios.tcc \
  /usr/include/c++/15/bits/ostream.tcc /usr/include/c++/15/istream \
  /usr/include/c++/15/bits/istream.tcc \
- /home/gasty/Escritorio/game/src/shader.h /usr/include/glm/glm.hpp \
+ /home/gasty/Escritorio/game/src/core/shader.h /usr/include/glm/glm.hpp \
  /usr/include/glm/detail/_fixes.hpp /usr/include/c++/15/cmath \
  /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -364,5 +364,8 @@ CMakeFiles/game.dir/src/main.cpp.o: \
  /usr/include/glm/ext/vector_uint1.hpp \
  /usr/include/glm/ext/vector_uint1_sized.hpp /usr/include/c++/15/cstring \
  /usr/include/string.h /usr/include/strings.h \
- /usr/include/glm/gtc/type_ptr.inl /home/gasty/Escritorio/game/src/mesh.h \
- /home/gasty/Escritorio/game/src/camera.h
+ /usr/include/glm/gtc/type_ptr.inl \
+ /home/gasty/Escritorio/game/src/core/mesh.h \
+ /home/gasty/Escritorio/game/src/core/camera.h \
+ /home/gasty/Escritorio/game/src/core/timer.h \
+ /home/gasty/Escritorio/game/src/core/mesh_factory.h

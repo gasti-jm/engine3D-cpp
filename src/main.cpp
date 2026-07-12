@@ -1,7 +1,15 @@
-#include "window.h"
-#include "shader.h"
-#include "mesh.h"
-#include "camera.h"
+/*************************************************
+ * Jorge Gaston Martinez - 3D Engine
+ * main.cpp - here start own game :D
+ * COPYRIGHT 2026
+ *************************************************/
+
+#include "core/window.h"
+#include "core/shader.h"
+#include "core/mesh.h"
+#include "core/camera.h"
+#include "core/timer.h"
+#include "core/mesh_factory.h"
 
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
@@ -40,6 +48,7 @@ void main() {
 
 int main() 
 {
+    Timer timer;
     Window window;
     Camera camera;
 
@@ -52,42 +61,24 @@ int main()
     );
 
     gladLoadGLLoader((GLADloadproc)glfwGetProcAddress);
+    glEnable(GL_DEPTH_TEST); // depth buffer (permite el dibujado segun distancias. )
 
     Shader shader;
     shader.compile(vertexShaderSrc, fragmentShaderSrc);
 
-    float vertices[] = {
-        0.0,  0.5, 0.0,  1,0,0, 0.5,1,
-       -0.5, -0.5, 0.0,  0,1,0, 0,0,
-        0.5, -0.5, 0.0,  0,0,1, 1,0
-    };
+    Mesh quad = MeshFactory::createQuad();
 
-    Mesh mesh;
-    mesh.create(vertices, sizeof(vertices));
+    //Mesh mesh;
+    //mesh.create(vertices, sizeof(vertices), indices, sizeof(indices));
 
     while (!window.shouldClose()) 
     {
+        timer.update();
+        float dt = timer.getDeltaTime();
+        //std::cout << timer.getDeltaTime() << '\n';
         float speed = 0.05f;
 
-        if (glfwGetKey(window.getHandle(), GLFW_KEY_W) == GLFW_PRESS)
-        {
-            camera.position += camera.front * speed;
-        }
-
-        if (glfwGetKey(window.getHandle(), GLFW_KEY_S) == GLFW_PRESS)
-        {
-            camera.position -= camera.front * speed;
-        }
-
-        if (glfwGetKey(window.getHandle(), GLFW_KEY_A) == GLFW_PRESS)
-        {
-            camera.position -= camera.right * speed;
-        }
-
-        if (glfwGetKey(window.getHandle(), GLFW_KEY_D) == GLFW_PRESS)
-        {
-            camera.position += camera.right * speed;
-        }
+        camera.processKeyboard(window.getHandle(), timer.getDeltaTime());
 
         if (glfwGetKey(window.getHandle(), GLFW_KEY_ESCAPE) == GLFW_PRESS) 
         {
@@ -109,7 +100,7 @@ int main()
         );
 
         glClearColor(0.1,0.1,0.1,1);
-        glClear(GL_COLOR_BUFFER_BIT);
+        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
         float time = glfwGetTime();
 
@@ -133,7 +124,7 @@ int main()
         shader.setMat4("view", view);
         shader.setMat4("projection", projection);
 
-        mesh.draw();
+        quad.draw();
 
         window.swap();
         window.poll();
